@@ -1,0 +1,118 @@
+
+body{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;  
+}
+a{color:#555;}
+a:visited{color:#ff9900;}
+a:hover{color:#ff9900;}
+h1{
+    font-size: 400%;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    width:100%;
+}
+h2{
+
+    font-size: 300%;
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    width:100%;
+}
+
+h3{
+    font-size: 200%;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    display: block;
+    width:100%;
+}
+h4{
+    font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    width:100%;
+}
+h5{
+    font-size: 50%;
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    width:100%;
+}
+.header{ width:100%;}
+.header-top{ 
+    border-bottom:2px solid #ddd;
+    padding:5px 0px;
+}
+.social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.social-icons li{ 
+    
+    display: inline-block;
+    vertical-align: top;
+}
+.social-icons li a i{
+    font-size: 24px;
+    color:#999;
+}
+
+.contact-icon{
+    list-style-type: none;
+}
+
+.contact-icon li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.contact-icon li a i{
+    margin-right: 5px;
+}
+
+.contact-icon li a{
+    color: #999;
+}
+.header-bottom .main-menu{
+    margin: 30px 0px;
+    padding: 0px;
+
+}
+
+.header-bottom .main-menu li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.header-bottom .main-menu li a{
+    font-weight: 600;
+    font-size: 120%;
+    
+}
+.fixed{ 
+    position: fixed; 
+    top:0; 
+    z-index: 9; 
+    background-color:rgba(255,255,255,0.9);}
+.banner-image{position: relative;}
+.banner-image img{width:100%;}
+.banner-content{ position: absolute; top:200px; left:100px; color:#fff;}
+
+.main-menu span{
+    /*border:1px solid #f00;*/
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite-icons.png');
+    width: 26px;
+    height: 26px;
+}
+
+.main-menu .home{
+    background-position: -5px -35px; 
+}
+.main-menu .product{
+    background-position: -35px -70px; 
+}
